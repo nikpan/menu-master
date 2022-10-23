@@ -1,5 +1,5 @@
+import React from 'react';
 import { Box, Chip, styled } from '@mui/material';
-import React, { useState } from 'react';
 
 interface TogglePillProps {
   name: string,
