@@ -21,7 +21,7 @@ const RecipePage = (props: RecipePageProps) => {
   return (
     <Box sx={{ width: 500 }}>
       {listRecipes.map(recipe => (
-        <RecipeCard recipe={recipe} />
+        <RecipeCard key={recipe.name} recipe={recipe} />
       ))}
     </Box>
   )
