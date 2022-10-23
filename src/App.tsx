@@ -1,19 +1,24 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './App.css';
 import useArray from './hooks/useArray';
-import { Recipe, recipes } from './constants/recipeMasterList';
-import { BottomNavigation, BottomNavigationAction, Box } from '@mui/material';
-import RestoreIcon from '@mui/icons-material/Restore';
-import FavoriteIcon from '@mui/icons-material/Favorite';
+import { BottomNavigation, BottomNavigationAction, Box, styled } from '@mui/material';
+import KitchenIcon from '@mui/icons-material/Kitchen';
+import MenuBookIcon from '@mui/icons-material/MenuBook';
 import PantryPage from './views/PantryPage';
 import RecipePage from './views/RecipePage';
+
+const AppContainer = styled(Box)`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
 
 function App() {
   const { items: pantry, addItem, removeItem } = useArray([]);
   const [value, setValue] = React.useState(0);
 
   return (
-    <div className="App">
+    <AppContainer className="App">
       <header className="App-header">
         <Box sx={{ width: 500 }}>
           <BottomNavigation
@@ -23,14 +28,14 @@ function App() {
               setValue(newValue);
             }}
           >
-            <BottomNavigationAction label="Pantry" icon={<RestoreIcon />} />
-            <BottomNavigationAction label="Recipes" icon={<FavoriteIcon />} />
+            <BottomNavigationAction label="Pantry" icon={<KitchenIcon />} />
+            <BottomNavigationAction label="Recipes" icon={<MenuBookIcon />} />
           </BottomNavigation>
         </Box>
+      </header>
         {value === 0 ? <PantryPage addItem={addItem} removeItem={removeItem} /> : <></>}
         {value === 1 ? <RecipePage pantryList={pantry} /> : <></>}
-      </header>
-    </div>
+    </AppContainer>
   );
 }
 

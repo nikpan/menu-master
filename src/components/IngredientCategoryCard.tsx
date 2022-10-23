@@ -35,7 +35,7 @@ const IngredientCategoryCard = (props: IngredientCategoryCardProps) => {
   const { items, toggleItem } = useToggleList(ingredients);
   return (
     <CardContainer>
-      <Accordion>
+      <Accordion defaultExpanded>
         <AccordionSummaryContainer expandIcon={<ExpandMoreIcon />}>
           {categoryName}
         </AccordionSummaryContainer>
