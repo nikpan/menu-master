@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { getStoredPantry } from "../utils/localStorageUtil";
 
 type Ingredient = {
   name: string,
@@ -6,12 +7,18 @@ type Ingredient = {
 }
 
 const useToggleList = (list: Ingredient[]) => {
-  const [items, setItems] = useState(list);
+  const initialPantryList: string[] = getStoredPantry();
+  const [items, setItems] = useState(list.map(item => {
+    return {
+      name: item.name,
+      selected: initialPantryList.includes(item.name)
+    }
+  }));
 
   const toggleItem = (name: string) => {
     let newItems = [...items];
     const i = newItems.findIndex(item => item.name === name);
-    if(i !== -1) {
+    if (i !== -1) {
       newItems[i].selected = !newItems[i].selected;
       setItems(newItems);
     }

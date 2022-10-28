@@ -1,7 +1,8 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { getStoredPantry, setStoredPantry } from "../utils/localStorageUtil";
 
-const useArray = (initialData: string[]) => {
-  const [items, setItems] = useState(initialData);
+const useArray = () => {
+  const [items, setItems] = useState<Array<string>>(getStoredPantry());
 
   const addItem = (item: string) => {
     setItems([...items].concat([item]));
@@ -10,6 +11,10 @@ const useArray = (initialData: string[]) => {
   const removeItem = (item: string) => {
     setItems(items.filter(i => i !== item));
   }
+
+  useEffect(() => {
+    setStoredPantry(items);
+  }, [items]);
 
   return { items, addItem, removeItem };
 }

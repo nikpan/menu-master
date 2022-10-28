@@ -14,7 +14,7 @@ const AppContainer = styled(Box)`
 `;
 
 function App() {
-  const { items: pantry, addItem, removeItem } = useArray([]);
+  const { items: pantry, addItem, removeItem } = useArray();
   const [value, setValue] = React.useState(0);
 
   return (
