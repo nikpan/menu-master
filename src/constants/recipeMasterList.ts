@@ -1,16 +1,29 @@
+import Images from "../assets/imageLoader";
+
+export enum Effort {
+  Low,
+  Medium,
+  High
+}
+
 export type Recipe = {
   name: string,
-  ingredients: string[]
+  ingredients: string[],
+  effort?: Effort,
+  imgSrc?: string
 }
 
 export const recipes: Recipe[] = [
   {
     name: 'Aloo Paratha',
-    ingredients: ['Potato','Flour']
+    ingredients: ['Potato','Flour'],
+    effort: Effort.Medium,
+    imgSrc: Images.alooParatha
   },  
   {
     name: 'Palak Paratha',
-    ingredients: ['Spinach', 'Flour']
+    ingredients: ['Spinach', 'Flour'],
+    effort: Effort.Medium
   },
   {
     name: 'Gobi Paratha',
@@ -26,7 +39,8 @@ export const recipes: Recipe[] = [
   },
   {
     name: 'Aloo Matar',
-    ingredients: ['Potato', 'Peas']
+    ingredients: ['Potato', 'Peas'],
+    imgSrc: Images.alooMatar
   },
   {
     name: 'Aloo Jeera',
@@ -74,7 +88,8 @@ export const recipes: Recipe[] = [
   },
   {
     name: 'Pav Bhaji',
-    ingredients: ['Carrot', 'Potato', 'Tomato', 'Onion', 'Green Capsicum', 'Peas']
+    ingredients: ['Carrot', 'Potato', 'Tomato', 'Onion', 'Green Capsicum', 'Peas'],
+    imgSrc: Images.pavBhaji
   },
   {
     name: 'Egg Bhurji',
@@ -102,7 +117,8 @@ export const recipes: Recipe[] = [
   },
   {
     name: 'Masoor Dal',
-    ingredients: ['Masoor Dal']
+    ingredients: ['Masoor Dal'],
+    imgSrc: Images.masoorDal
   },
   {
     name: 'Tur Dal',
@@ -127,5 +143,9 @@ export const recipes: Recipe[] = [
   {
     name: 'Chane',
     ingredients: ['Black Chana']
+  },
+  {
+    name: 'Mexican Rice',
+    ingredients: ['Kidney Beans', 'Rice']
   }
 ]

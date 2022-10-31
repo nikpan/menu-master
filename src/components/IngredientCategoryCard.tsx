@@ -27,7 +27,7 @@ const AccordionDetailsContainer = styled(AccordionDetails)`
 `;
 
 const CardContainer = styled(Card)`
-  margin-bottom: 1rem;
+  margin: 1rem;
 `;
 
 const IngredientCategoryCard = (props: IngredientCategoryCardProps) => {
