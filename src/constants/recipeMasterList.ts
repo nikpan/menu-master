@@ -74,7 +74,7 @@ export const recipes: Recipe[] = [
   },
   {
     name: 'Pav Bhaji',
-    ingredients: ['Carrot', 'Potato', 'Tomato', 'Onion', 'Green Capsicum']
+    ingredients: ['Carrot', 'Potato', 'Tomato', 'Onion', 'Green Capsicum', 'Peas']
   },
   {
     name: 'Egg Bhurji',
@@ -87,5 +87,45 @@ export const recipes: Recipe[] = [
   {
     name: 'Lauki Sabji',
     ingredients: ['Bottle Gourd']
+  },
+  {
+    name: 'Lauki Thalipeeth',
+    ingredients: ['Bottle Gourd']
+  },
+  {
+    name: 'Aite',
+    ingredients: ['Spring Onion', 'Rice']
+  },
+  {
+    name: 'Pithla',
+    ingredients: ['Besan']
+  },
+  {
+    name: 'Masoor Dal',
+    ingredients: ['Masoor Dal']
+  },
+  {
+    name: 'Tur Dal',
+    ingredients: ['Tur Dal']
+  },
+  {
+    name: 'Dal Makhni',
+    ingredients: ['Urad Dal', 'Kidney Beans']
+  },
+  {
+    name: 'Chavli chi bhaji',
+    ingredients: ['Black Eyed Peas']
+  },
+  {
+    name: 'Moong Dal',
+    ingredients: ['Moong Dal']
+  },
+  {
+    name: 'Chole',
+    ingredients: ['Chickpea']
+  },
+  {
+    name: 'Chane',
+    ingredients: ['Black Chana']
   }
 ]
