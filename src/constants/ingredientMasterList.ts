@@ -21,6 +21,9 @@ export const allIngredients: IngredientCategory[] = [
       { name: 'Brocolli', selected: false },
       { name: 'Peas', selected: false },
       { name: 'Green Capsicum', selected: false },
+      { name: 'Mushroom', selected: false },
+      { name: 'Carrot', selected: false },
+      { name: 'Bottle Gourd', selected: false}
     ]
   },
   {
@@ -33,6 +36,7 @@ export const allIngredients: IngredientCategory[] = [
       { name: 'Ginger',  selected: false },
       { name: 'Pasta',  selected: false },
       { name: 'Flour',  selected: false },
+      { name: 'Rice',  selected: false },
     ]
   },
   {
@@ -49,6 +53,7 @@ export const allIngredients: IngredientCategory[] = [
       { name: 'Mutton',  selected: false },
       { name: 'Chicken',  selected: false },
       { name: 'Fish',  selected: false },
+      { name: 'Shrimp',  selected: false },
     ]
   },
   {

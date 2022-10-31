@@ -22,11 +22,19 @@ export const recipes: Recipe[] = [
   },
   {
     name: 'Aloo Palak',
-    ingredients: ['Potato', 'Cauliflower']
+    ingredients: ['Potato', 'Spinach']
   },
   {
     name: 'Aloo Matar',
     ingredients: ['Potato', 'Peas']
+  },
+  {
+    name: 'Aloo Jeera',
+    ingredients: ['Potato']
+  },
+  {
+    name: 'Dum Aloo',
+    ingredients: ['Potato']
   },
   {
     name: 'Matar Paneer',
@@ -56,4 +64,28 @@ export const recipes: Recipe[] = [
     name: 'Red Pasta',
     ingredients: ['Pasta', 'Tomato']
   },
+  {
+    name: 'Shrimp Masala',
+    ingredients: ['Shrimp']
+  },
+  {
+    name: 'Mushroom Masala',
+    ingredients: ['Mushroom']
+  },
+  {
+    name: 'Pav Bhaji',
+    ingredients: ['Carrot', 'Potato', 'Tomato', 'Onion', 'Green Capsicum']
+  },
+  {
+    name: 'Egg Bhurji',
+    ingredients: ['Egg']
+  },
+  {
+    name: 'Egg Fried Rice',
+    ingredients: ['Egg', 'Rice']
+  },
+  {
+    name: 'Lauki Sabji',
+    ingredients: ['Bottle Gourd']
+  }
 ]
