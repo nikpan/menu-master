@@ -20,7 +20,7 @@ function App() {
   return (
     <AppContainer className="App">
       <header className="App-header">
-        <Box sx={{ width: 500 }}>
+        <Box sx={{ width: '100vw' }}>
           <BottomNavigation
             showLabels
             value={value}
@@ -33,8 +33,10 @@ function App() {
           </BottomNavigation>
         </Box>
       </header>
+      <Box sx={{ width: '100vw' }}>
         {value === 0 ? <PantryPage addItem={addItem} removeItem={removeItem} /> : <></>}
         {value === 1 ? <RecipePage pantryList={pantry} /> : <></>}
+      </Box>
     </AppContainer>
   );
 }

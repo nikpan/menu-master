@@ -11,7 +11,7 @@ interface PantryPageProps {
 const PantryPage = (props: PantryPageProps) => {
   const { addItem, removeItem } = props;
   return (
-    <Box sx={{ width: 500 }}>
+    <Box>
       {allIngredients.map(category => (
         <IngredientCategoryCard
           key={category.categoryName}

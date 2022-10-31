@@ -19,7 +19,7 @@ const RecipePage = (props: RecipePageProps) => {
   });
 
   return (
-    <Box sx={{ width: 500 }}>
+    <Box>
       {listRecipes.map(recipe => (
         <RecipeCard key={recipe.name} recipe={recipe} />
       ))}
