@@ -30,6 +30,7 @@ import spaghetti from './images/spaghetti.jpeg';
 import sweetPotatoGnocchi from './images/sweet-potato-gnocchi.jpeg';
 import turDal from './images/tur-dal.jpeg';
 import palakParatha from './images/palak-paratha.jpeg';
+import aite from './images/aite.jpeg'
 
 const Images = {
   alooMatar,
@@ -63,7 +64,8 @@ const Images = {
   turDal,
   spaghetti,
   dalMakhani,
-  palakParatha
+  palakParatha,
+  aite
 }
 
 export default Images;

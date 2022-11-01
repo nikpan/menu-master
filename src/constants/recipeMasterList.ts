@@ -129,6 +129,7 @@ export const recipes: Recipe[] = [
   {
     name: 'Aite',
     ingredients: ['Spring Onion', 'Rice'],
+    imgSrc: Images.aite
   },
   {
     name: 'Pithla',
