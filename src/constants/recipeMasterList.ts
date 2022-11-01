@@ -23,7 +23,8 @@ export const recipes: Recipe[] = [
   {
     name: 'Palak Paratha',
     ingredients: ['Spinach', 'Flour'],
-    effort: Effort.Medium
+    effort: Effort.Medium,
+    imgSrc: Images.palakParatha
   },
   {
     name: 'Gobi Paratha',
@@ -72,27 +73,33 @@ export const recipes: Recipe[] = [
   },
   {
     name: 'Potato Gnocchi',
-    ingredients: ['Potato', 'Flour']
+    ingredients: ['Potato', 'Flour'],
+    imgSrc: Images.potatoGnocchi
   },
   {
     name: 'Sweet Potato Gnocchi',
-    ingredients: ['Sweet Potato', 'Flour']
+    ingredients: ['Sweet Potato', 'Flour'],
+    imgSrc: Images.sweetPotatoGnocchi
   },
   {
     name: 'Spaghetti Aglio Olio',
-    ingredients: ['Pasta', 'Garlic']
+    ingredients: ['Pasta', 'Garlic'],
+    imgSrc: Images.spaghetti
   },
   {
     name: 'Red Pasta',
-    ingredients: ['Pasta', 'Tomato']
+    ingredients: ['Pasta', 'Tomato'],
+    imgSrc: Images.redPasta
   },
   {
     name: 'Shrimp Masala',
-    ingredients: ['Shrimp']
+    ingredients: ['Shrimp'],
+    imgSrc: Images.shrimpMasala
   },
   {
     name: 'Mushroom Masala',
-    ingredients: ['Mushroom']
+    ingredients: ['Mushroom'],
+    imgSrc: Images.mushroomMasala
   },
   {
     name: 'Pav Bhaji',
@@ -101,23 +108,27 @@ export const recipes: Recipe[] = [
   },
   {
     name: 'Egg Bhurji',
-    ingredients: ['Egg']
+    ingredients: ['Egg'],
+    imgSrc: Images.eggBhurji
   },
   {
     name: 'Egg Fried Rice',
-    ingredients: ['Egg', 'Rice']
+    ingredients: ['Egg', 'Rice'],
+    imgSrc: Images.eggFriedRice
   },
   {
     name: 'Lauki Sabji',
-    ingredients: ['Bottle Gourd']
+    ingredients: ['Bottle Gourd'],
+    imgSrc: Images.laukiSabji
   },
   {
     name: 'Lauki Thalipeeth',
-    ingredients: ['Bottle Gourd']
+    ingredients: ['Bottle Gourd'],
+    imgSrc: Images.laukiThalipeeth
   },
   {
     name: 'Aite',
-    ingredients: ['Spring Onion', 'Rice']
+    ingredients: ['Spring Onion', 'Rice'],
   },
   {
     name: 'Pithla',
@@ -131,31 +142,38 @@ export const recipes: Recipe[] = [
   },
   {
     name: 'Tur Dal',
-    ingredients: ['Tur Dal']
+    ingredients: ['Tur Dal'],
+    imgSrc: Images.turDal
   },
   {
     name: 'Dal Makhni',
-    ingredients: ['Urad Dal', 'Kidney Beans']
+    ingredients: ['Urad Dal', 'Kidney Beans'],
+    imgSrc: Images.dalMakhani
   },
   {
     name: 'Chavli chi bhaji',
-    ingredients: ['Black Eyed Peas']
+    ingredients: ['Black Eyed Peas'],
+    imgSrc: Images.lobiaDal
   },
   {
     name: 'Moong Dal',
-    ingredients: ['Moong Dal']
+    ingredients: ['Moong Dal'],
+    imgSrc: Images.moongDal
   },
   {
     name: 'Chole',
-    ingredients: ['Chickpea']
+    ingredients: ['Chickpea'],
+    imgSrc: Images.chole
   },
   {
     name: 'Chane',
-    ingredients: ['Black Chana']
+    ingredients: ['Black Chana'],
+    imgSrc: Images.chane
   },
   {
     name: 'Mexican Rice',
-    ingredients: ['Kidney Beans', 'Rice']
+    ingredients: ['Kidney Beans', 'Rice'],
+    imgSrc: Images.mexicanRice
   },
   {
     name: 'Rajma',
