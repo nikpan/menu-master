@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "d4fca7ea4f517eba99fe",
+    "revision": "4816d4e39a05154a0102",
     "url": "/menu-master/static/css/main.5a586e28.chunk.css"
   },
   {
-    "revision": "d4fca7ea4f517eba99fe",
-    "url": "/menu-master/static/js/main.0c629dc6.chunk.js"
+    "revision": "4816d4e39a05154a0102",
+    "url": "/menu-master/static/js/main.8b30c98e.chunk.js"
   },
   {
     "revision": "3910523e0cb8dcf1b30f",
     "url": "/menu-master/static/js/runtime~main.97451312.js"
   },
   {
-    "revision": "7dd9eecec55b43f03c24",
-    "url": "/menu-master/static/js/2.0addcfc1.chunk.js"
+    "revision": "b0cfb82e162b5c0342cc",
+    "url": "/menu-master/static/js/2.e7729fbd.chunk.js"
   },
   {
     "revision": "6d9ac50771440e5e2bddda9030651415",
@@ -144,7 +144,11 @@ self.__precacheManifest = [
     "url": "/menu-master/static/media/palak-paratha.56a58ab8.jpeg"
   },
   {
-    "revision": "fa7d791a41be39c8cdb856b75b6b693d",
+    "revision": "bdf3264445e64fdecc143089a0032979",
+    "url": "/menu-master/static/media/aite.bdf32644.jpeg"
+  },
+  {
+    "revision": "83bea47e14b2cb4b773c559e2229e984",
     "url": "/menu-master/index.html"
   }
 ];
