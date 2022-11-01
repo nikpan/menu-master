@@ -27,15 +27,18 @@ export const recipes: Recipe[] = [
   },
   {
     name: 'Gobi Paratha',
-    ingredients: ['Cauliflower', 'Flour']
+    ingredients: ['Cauliflower', 'Flour'],
+    imgSrc: Images.gobiParatha,
   },
   {
     name: 'Aloo Gobi',
-    ingredients: ['Potato', 'Cauliflower']
+    ingredients: ['Potato', 'Cauliflower'],
+    imgSrc: Images.alooGobi
   },
   {
     name: 'Aloo Palak',
-    ingredients: ['Potato', 'Spinach']
+    ingredients: ['Potato', 'Spinach'],
+    imgSrc: Images.alooPalak
   },
   {
     name: 'Aloo Matar',
@@ -44,23 +47,28 @@ export const recipes: Recipe[] = [
   },
   {
     name: 'Aloo Jeera',
-    ingredients: ['Potato']
+    ingredients: ['Potato'],
+    imgSrc: Images.alooJeera
   },
   {
     name: 'Dum Aloo',
-    ingredients: ['Potato']
+    ingredients: ['Potato'],
+    imgSrc: Images.dumAloo,
   },
   {
     name: 'Matar Paneer',
-    ingredients: ['Paneer', 'Peas']
+    ingredients: ['Paneer', 'Peas'],
+    imgSrc: Images.matarPaneer
   },
   {
     name: 'Paneer Do Pyaaza',
-    ingredients: ['Paneer', 'Onion', 'Green Capsicum']
+    ingredients: ['Paneer', 'Onion', 'Green Capsicum'],
+    imgSrc: Images.paneerDoPyaaza
   },
   {
     name: 'Palak Paneer',
-    ingredients: ['Spinach', 'Paneer']
+    ingredients: ['Spinach', 'Paneer'],
+    imgSrc: Images.palakPaneer
   },
   {
     name: 'Potato Gnocchi',
@@ -113,7 +121,8 @@ export const recipes: Recipe[] = [
   },
   {
     name: 'Pithla',
-    ingredients: ['Besan']
+    ingredients: ['Besan'],
+    imgSrc: Images.pithla
   },
   {
     name: 'Masoor Dal',
@@ -147,5 +156,10 @@ export const recipes: Recipe[] = [
   {
     name: 'Mexican Rice',
     ingredients: ['Kidney Beans', 'Rice']
+  },
+  {
+    name: 'Rajma',
+    ingredients: ['Kidney Beans'],
+    imgSrc: Images.rajma
   }
 ]
